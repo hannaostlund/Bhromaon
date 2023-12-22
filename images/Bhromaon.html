@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/index.html#whoweare -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhromaon</title>
+    <link rel="stylesheet" href="./Bhromaon_files/index.css"></head>
+<body>
+    <!-- BLOCK 1 - Header Section with background image and Nav bar -->
+    <header>
+        <header class="header">
+                <div class="header-content">
+                    <div class="background-image">
+                        <!-- Header content-->
+                        <h1 class="brand-name">Bhromoan</h1>
+                        <h3 class="sub-heading">Safe Travel Anywhere</h3>
+                        <input type="text" placeholder="Search your travel destination" class="search-input">
+                        <button class="search-btn"> Search
+                          <!-- Need to add icon here -->
+                        </button>
+                      </div>
+                      <div class="scroll-down">
+                        <span>Scroll down</span>
+                        <!-- Need to add icon here -->
+                      </div>
+                    </div>
+                  
+                <!-- Navigation Bar -->
+                <nav class="navbar">
+                  <div class="container">
+                  <a class="brand" href="http://127.0.0.1:5500/index.html#home">Bhromoan</a>
+                    <!-- Navbar content -->
+                    <a href="http://127.0.0.1:5500/index.html#whoweare">Who we are</a>
+                    <a href="http://127.0.0.1:5500/index.html#whatwedo">What we do</a>
+                    <a href="http://127.0.0.1:5500/index.html#travel">Travel with us</a>
+                    <a href="http://127.0.0.1:5500/index.html#contact">Contact Us</a>
+                  </div>
+                </nav>
+                </header>
+    
+    <!-- BLOCK 2 - "Why Choose Us Content" -->
+    <!-- BLOCK 3 - Black Icon section -->
+    <!-- BLOCK 4 Img background + Card -->
+    <!-- BLOCK 5 - Mirrored Img Background + Card  -->
+    <!-- BLOCK 6 - "What our Tourists say" Content Card -->
+
+    <footer>
+    <!-- BLOCK 7 - Footer -->
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</header></body></html>

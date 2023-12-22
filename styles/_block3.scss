@@ -1,35 +1,37 @@
 .Block-3 {
-    width: 100%;
-    background-color: #333; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  width: 100%;
+  background-color: #333; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .svg1 {
-    width: 777px;
-    height: 99px;
-  }
-  
 .icons-row {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: nowrap; 
-    margin-top: 20px; 
-    gap: 20px;
-  }
-  
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+  gap: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 353px;
+  height: 163px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
   .icon-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 353px;
-    height: 163px;
-    flex-shrink: 0;
+    width: calc(50% - 20px); 
+    max-width: 300px; 
   }
-  
+}
+
   .icon-wrapper img {
     width: 50px; 
     height: 50px; 
@@ -45,3 +47,7 @@
     margin-top: 5px; 
   }
   
+  .svg1 {
+    width: 777px;
+    height: 99px;
+  }

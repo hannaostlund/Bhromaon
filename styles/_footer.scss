@@ -3,13 +3,13 @@ footer.footer {
   background-color: #232323;
   color: #FFF;
   display: flex;
-  align-items: center;
+  flex-direction: column; 
+  align-items: center; 
   padding: 20px;
   text-align: center;
 }
 
 footer.footer .brand {
-  text-align: center; 
   margin-bottom: 20px;
 }
 
@@ -30,5 +30,4 @@ footer.footer .footer-h2 {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1.6px;
-  width: 100%; 
 }

@@ -106,12 +106,27 @@
   margin-left: 8px;
 }
 
-@media (max-width: 400px) {
-  .brand-name {
-    font-size: 24px;
+@media (max-width: 500px) {
+  .header .header-content .brand-name {
+    font-size: 20px;
   }
-  .sub-heading {
-    font-size: 14px;
+  .header .header-content .sub-heading {
+    font-size: 10px;
+  }
+  .form {
+    width: 80%;
+  }
+  .search-input {
+    padding: 6px;
+    font-size: 10px;
+  }
+  .btn {
+    padding: 2px 2px;
+    font-size: 10px;
+  }
+  .header .header-content .background-image button.header-btn {
+    background-image: url("../images/bluerectangle.svg");
+    background-size: auto;
   }
 }
 .navbar {
@@ -135,6 +150,17 @@
   padding: 0 20px;
 }
 
+.navbar a {
+  margin-left: 20px;
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .navbar .brand {
   color: #FFF;
   font-family: Josefin Sans;
@@ -148,17 +174,7 @@
 .navbar .nav-links {
   display: flex;
   align-items: center;
-  gap: 8px;
-}
-
-.navbar a {
-  color: #FFF;
-  font-family: Aleo;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
-  text-transform: uppercase;
-  text-decoration: none;
+  gap: 20px;
 }
 
 @media (max-width: 500px) {
@@ -253,6 +269,13 @@
   .content h2 {
     font-size: 24px;
     margin-bottom: 20px;
+  }
+  .content p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .images img {
+    display: none;
   }
 }
 .Block-3 {

@@ -105,12 +105,31 @@
   margin-left: 8px; 
 }
 
-@media (max-width: 400px) {
-  .brand-name {
-    font-size: 24px; 
+@media (max-width: 500px) {
+  .header .header-content .brand-name {
+    font-size: 20px;
   }
 
-  .sub-heading {
-    font-size: 14px; 
+  .header .header-content .sub-heading {
+    font-size: 10px;
+  }
+
+  .form {
+    width: 80%;  
+  }
+
+  .search-input {
+    padding: 6px; 
+    font-size: 10px; 
+  }
+
+  .btn {
+    padding: 2px 2px;
+    font-size: 10px; 
+  }
+  
+  .header .header-content .background-image button.header-btn {
+    background-image: url('../images/bluerectangle.svg');
+    background-size: auto; 
   }
 }

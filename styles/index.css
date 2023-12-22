@@ -1,19 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@200;300;400;700&display=swap");
-.btn {
-  background-color: #5474FD;
-  width: 153px;
-  height: 35px;
-  flex-shrink: 0;
-  color: #FFF;
-  font-family: Aleo;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-}
-
 .header {
   position: relative;
   width: 100%;
@@ -31,7 +16,7 @@
 .header .header-content {
   text-align: center;
   display: flex;
-  flex-direction: column; /* For smaller screens */
+  flex-direction: column;
   align-items: center;
 }
 
@@ -52,6 +37,7 @@
   font-weight: 300;
   line-height: 26px;
   letter-spacing: 6.82px;
+  margin-top: 10px;
 }
 
 .header .header-content .background-image button.header-btn {
@@ -75,12 +61,45 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* Adjust as needed */
+  line-height: 26px;
   letter-spacing: 2.8px;
 }
 
 .branding {
   margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 503px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20PX;
+}
+
+.search-input {
+  padding: 8px;
+}
+
+.btn {
+  background-color: #5474FD;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn img {
+  margin-left: 8px;
 }
 
 .navbar {

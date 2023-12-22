@@ -52,10 +52,10 @@
 }
 
 .text-right {
-  width: 668px;
+  max-width: 400px;
   height: 287px;
   flex-shrink: 0;
-  fill: #333;
+  background-color: #333;
 }
 
 .testimonial-name {
@@ -66,6 +66,8 @@
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .testimonial-text {
@@ -75,4 +77,41 @@
   font-style: normal;
   font-weight: 200;
   line-height: 26px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  #block-6 {
+    height: auto;
+    padding: 20px; 
+  }
+
+  .block-6-content {
+    position: relative;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px; 
+    overflow: hidden; //adding this to see if it would help the design
+  }
+
+  .block-6-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .image-left img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .text-right {
+    width: 100%; 
+  }
 }

@@ -1,0 +1,76 @@
+.Block-4 {
+    width: 100%;
+    height: 700px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  .Block-4 .background {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Block-4 .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-card {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #232323;
+    opacity: 0.9;
+    width: 543px;
+    max-height: 374px;
+    padding: 30px;
+    color: #E8E8E8;
+    font-family: Josefin Sans, sans-serif;
+    text-align: justify;
+  }
+  
+  .content-card .spain {
+    width: 80px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+  }
+  
+  .content-card .grand-madrid {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    text-transform: uppercase;
+  }
+  
+  .content-card p {
+    width: 508px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  
+  .content-card .madrid-btn {
+    background-color: #496BFE;
+    width: 228px;
+    height: 63px;
+    color: #FFF;
+    font-family: Aleo, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+  

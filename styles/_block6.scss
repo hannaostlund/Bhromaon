@@ -1,61 +1,74 @@
-.Block-6 {
-  position: relative;
-  background-color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #E8E8E8;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.background {
-  position: relative;
-}
-
-.background img {
+#block-6 {
+  background-image: url('../images/background-block-6.png');
   width: 100%;
-  height: auto;
+  height: 700px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
 }
 
-.Testimonials {
+.Block-6 .background {
+  width: 100%;
+  height: 100%;
+}
+
+.Block-6 .background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.block-6-content {
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  color: #FFF;
+  transform: translate(-50%, -50%);
   text-align: center;
+  color: #FFF;
+}
+
+.block-6-heading {
   font-family: Aleo;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 72.222% */
+  line-height: 26px;
+  margin-bottom: 40px;
 }
 
-.content-block-6 {
-  text-align: center;
-  width: 100%; /* Adjust as needed */
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.testimonial-card {
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity or color as desired */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+.image-left img {
+  width: 445px;
+  height: 284px;
+  flex-shrink: 0;
 }
 
-.Sam {
+.text-right {
+  width: 668px;
+  height: 287px;
+  flex-shrink: 0;
+  fill: #333;
+}
+
+.testimonial-name {
   color: #FEFEFE;
-  font-family: Josefin Sans;
+  font-family: 'Josefin Sans';
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
-.content-block-6 .sam-text {
+.testimonial-text {
   color: #E8E8E8;
   font-family: Josefin Sans;
   font-size: 16px;
@@ -63,4 +76,3 @@
   font-weight: 200;
   line-height: 26px;
 }
-

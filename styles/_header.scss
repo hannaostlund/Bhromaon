@@ -30,6 +30,9 @@
 
 .header .header-content {
   text-align: center;
+  display: flex;
+  flex-direction: column; /* For smaller screens */
+  align-items: center;
 }
 
 .header .header-content .brand-name {
@@ -64,3 +67,17 @@
   transition: opacity 0.3s ease; 
 }
 
+.scroll {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* Adjust as needed */
+  letter-spacing: 2.8px;
+}
+
+.branding {
+  margin-bottom: 20px;
+}

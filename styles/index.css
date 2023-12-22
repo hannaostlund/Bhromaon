@@ -30,6 +30,9 @@
 
 .header .header-content {
   text-align: center;
+  display: flex;
+  flex-direction: column; /* For smaller screens */
+  align-items: center;
 }
 
 .header .header-content .brand-name {
@@ -63,6 +66,21 @@
   font-weight: 400;
   text-transform: uppercase;
   transition: opacity 0.3s ease;
+}
+
+.scroll {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* Adjust as needed */
+  letter-spacing: 2.8px;
+}
+
+.branding {
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -149,7 +167,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .content p {
@@ -160,6 +178,7 @@
   font-weight: 200;
   line-height: 26px; /* 162.5% */
   letter-spacing: 1.6px;
+  margin-bottom: 20px;
 }
 
 .explore-btn {
@@ -280,6 +299,7 @@
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 1.5px;
+  margin-bottom: 10px;
 }
 
 .content-card .grand-madrid {
@@ -290,6 +310,7 @@
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .content-card p {
@@ -300,6 +321,7 @@
   font-weight: 200;
   line-height: 26px; /* 162.5% */
   letter-spacing: 1.6px;
+  margin-bottom: 10px;
 }
 
 .content-card .madrid-btn {
@@ -354,6 +376,7 @@
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 1.5px;
+  margin-bottom: 10px;
 }
 
 .content-card-mirrored .grand-madrid {
@@ -364,6 +387,7 @@
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .content-card-mirrored p {
@@ -374,6 +398,7 @@
   font-weight: 200;
   line-height: 26px; /* 162.5% */
   letter-spacing: 1.6px;
+  margin-bottom: 10px;
 }
 
 .content-card-mirrored .madrid-btn {

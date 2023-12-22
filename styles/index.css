@@ -458,6 +458,27 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .content-card-mirrored {
+    position: static;
+    background-color: #232323;
+    opacity: 0.9;
+    color: #E8E8E8;
+    font-family: Josefin Sans, sans-serif;
+    text-align: justify;
+    padding: 30px;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .background img {
+    display: none;
+  }
+  .background {
+    background-color: #232323;
+  }
+}
 .Block-6 {
   position: relative;
   background-color: #333;

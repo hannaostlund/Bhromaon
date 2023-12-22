@@ -44,3 +44,13 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+@media (max-width: 500px) {
+  .navbar .brand {
+    font-size: 10px;
+  }
+
+  .navbar a {
+    font-size: 8px;
+  }
+}

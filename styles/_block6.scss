@@ -91,7 +91,11 @@
     text-align: center;
     margin: 0 auto; 
     padding: 20px; 
-    overflow: hidden; //adding this to see if it would help the design
+  }
+
+  .Block-6 .background img {
+    width: 100%;
+    height: 100%;
   }
 
   .block-6-heading {
@@ -106,9 +110,7 @@
   }
 
   .image-left img {
-    width: 100%; 
-    height: auto;
-    margin-bottom: 20px;
+    display: none;
   }
 
   .text-right {

@@ -34,22 +34,21 @@
   line-height: 26px;
   letter-spacing: 6.82px;
 }
-
-.header .header-content .search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header .header-content .background-image button.header-button {
+  background-image: url('../images/bluerectangle.svg');
+  background-size: cover; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Aleo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease; 
 }
 
-.header .header-content .search-bar .search-input {
-  width: 653px;
-  height: 63px;
-}
-
-.header .header-content .search-bar .search-btn {
-  background-color: #5474FD;
-  width: 153px;
-  height: 63px;
-  stroke-width: 2px;
-  stroke: #fff;
+/* Hover effect */
+.header .header-content .background-image button.header-button:hover {
+  opacity: 0.8; /* Change opacity or any other effect on hover */
 }

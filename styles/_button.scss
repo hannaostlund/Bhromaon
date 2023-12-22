@@ -1,0 +1,30 @@
+.search-btn,
+.explore-btn,
+.madrid-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover,
+.explore-btn:hover,
+.explore-btn:focus,
+.madrid-btn:hover,
+.madrid-btn:focus {
+  background-color: #0056b3; 
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #004682;
+}

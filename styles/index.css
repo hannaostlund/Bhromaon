@@ -432,6 +432,7 @@
 }
 
 .Block-6 {
+  position: relative;
   background-color: #333;
   display: flex;
   justify-content: center;
@@ -440,14 +441,50 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+.background {
+  position: relative;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+}
+
+.Testimonials {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #FFF;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 72.222% */
+}
+
 .content-block-6 {
   text-align: center;
-  width: 80%;
+  width: 100%; /* Adjust as needed */
+}
+
+.testimonial-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity or color as desired */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 }
 
 .Sam {
-  font-size: 24px;
+  color: #FEFEFE;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
@@ -456,7 +493,7 @@
   font-family: Josefin Sans;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 26px;
 }
 

@@ -1,0 +1,47 @@
+.Block-3 {
+    width: 100%;
+    background-color: #333; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .svg1 {
+    width: 777px;
+    height: 99px;
+  }
+  
+.icons-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: nowrap; 
+    margin-top: 20px; 
+    gap: 20px;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 353px;
+    height: 163px;
+    flex-shrink: 0;
+  }
+  
+  .icon-wrapper img {
+    width: 50px; 
+    height: 50px; 
+    padding-bottom: 20px;
+  }
+  
+  .svg-text {
+    color: #e8e8e8;
+    font-family: Aleo, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 5px; 
+  }
+  

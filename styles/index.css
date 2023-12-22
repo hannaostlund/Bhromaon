@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@200;300;400;700&display=swap");
+.btn {
+  background-color: #5474FD;
+  width: 153px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -36,23 +51,18 @@
   letter-spacing: 6.82px;
 }
 
-.header .header-content .search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header .header-content .search-bar .search-input {
-  width: 653px;
-  height: 63px;
-}
-
-.header .header-content .search-bar .search-btn {
-  background-color: #5474FD;
-  width: 153px;
-  height: 63px;
-  stroke-width: 2px;
-  stroke: #fff;
+.header .header-content .background-image button.header-btn {
+  background-image: url("../images/bluerectangle.svg");
+  background-size: cover;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Aleo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
 }
 
 .navbar {
@@ -129,6 +139,7 @@
   line-height: 26px;
   letter-spacing: 1.6px;
   width: 50%;
+  margin: 20px;
 }
 
 .content h2 {
@@ -377,12 +388,67 @@
   text-transform: uppercase;
 }
 
-.footer {
+footer.footer {
   width: 100%;
   background-color: #232323;
   color: #FFF;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
+  text-align: center;
+}
+
+footer.footer .brand {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer.footer .footer-h1,
+footer.footer .footer-h2 {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+footer.footer .footer-h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+footer.footer .footer-h2 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1.6px;
+  width: 100%;
+}
+
+.explore-btn,
+.madrid-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover,
+.explore-btn:hover,
+.explore-btn:focus,
+.madrid-btn:hover,
+.madrid-btn:focus {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #004682;
 }/*# sourceMappingURL=index.css.map */

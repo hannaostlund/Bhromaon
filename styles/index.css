@@ -659,6 +659,11 @@ footer.footer .footer-h2 {
   letter-spacing: 1.6px;
 }
 
+footer.footer .social-icons a:hover,
+footer.footer .social-icons a:focus {
+  color: #ffffff;
+}
+
 .explore-btn,
 .madrid-btn {
   padding: 10px 20px;
